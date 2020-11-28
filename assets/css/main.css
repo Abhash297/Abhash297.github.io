@@ -3437,10 +3437,10 @@ input, select, textarea {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		-moz-justify-content: -moz-flex-end;
+		/* -moz-justify-content: -moz-flex-end;
 		-webkit-justify-content: -webkit-flex-end;
-		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
+		-ms-justify-content: -ms-flex-end; */
+		/* justify-content: flex-end; */
 		/* -moz-transition: opacity 1s ease, -moz-transform 1s ease;
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
@@ -3540,14 +3540,14 @@ input, select, textarea {
 			margin-top: -20rem;
 		}
 
-			#intro + #header .logo {
+			/* #intro + #header .logo {
 				-moz-transform: translateY(2rem);
 				-webkit-transform: translateY(2rem);
 				-ms-transform: translateY(2rem);
 				transform: translateY(2rem);
 				opacity: 0;
 				visibility: hidden;
-			}
+			} */
 
 		#intro.hidden {
 			pointer-events: none;
